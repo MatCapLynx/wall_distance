@@ -1,0 +1,4 @@
+<launch>
+  <node name="wall_distance" pkg="wall_distance" type="wall_distance_node" output="screen" />
+  <node name="joystick" pkg="joy" type="joy_node"/>
+</launch>
