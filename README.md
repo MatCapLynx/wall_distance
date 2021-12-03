@@ -1,3 +1,5 @@
+# Wall distance
+
 Offboard control to ensure wall following. Once offboard mode activated the quad will always face the nearest wall and stay at the same distance.
 While wall following is enabled, user can still steer the drone up/down (z-axis) and left/right (y-axis).
 * Stack and tested in Gazebo SITL
