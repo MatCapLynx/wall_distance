@@ -5,7 +5,7 @@ While wall following is enabled, user can still steer the drone up/down (z-axis)
 Stack and tested in Gazebo SITL
 
 ## Launch
-To launch SITL gazebo with test world :`roslaunch px4 mavros_posix_sitl.launch vehicle:=iris_rplidar world:=/home/mathieu/catkin_ws/src/wall_distance/worlds/wall_follow.world`
+To launch SITL gazebo with test world :`roslaunch px4 mavros_posix_sitl.launch vehicle:=iris_rplidar world:=~/catkin_ws/src/wall_distance/worlds/wall_follow.world`
 
 To launch this node + joystick node : `roslaunch wall_distance wall_distance.launch`
 
