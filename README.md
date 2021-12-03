@@ -14,4 +14,4 @@ To launch this node + joystick node : `roslaunch wall_distance wall_distance.lau
 ! You must ensure the file /opt/ros/$ROS_DISTRO/share/mavros/launch/px4_config.yaml is set with the following lines :
 setpoint_velocity:
  mav_frame: BODY_NED
-Otherwise the drone will steer in a North/East frame and not a frame linked to the drone's body
+Otherwise the drone will steer in a North/East frame and not a frame linked to the drone's 
